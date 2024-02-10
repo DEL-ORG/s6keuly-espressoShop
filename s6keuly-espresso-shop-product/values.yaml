@@ -41,7 +41,13 @@ service:
   type: ClusterIP
   port: 8091
   targetport: 80
-
+env:
+  namepd: POSTGRES_DB
+  valuepd: espresso
+  namepu: POSTGRES_USER
+  valuepu: s6project
+  namepw: POSTGRES_PASSWORD
+  valuepw: czZwcm9qZWN0
 ingress:
   enabled: false
   className: ""

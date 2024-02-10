@@ -36,6 +36,12 @@ spec:
           env:
             - name: {{ .Values.env.name }}
               value: {{ .Values.env.value }}
+            - name: {{ .Values.env.namepd }}
+              value: {{ .Values.env.valuepd }}
+            - name: {{ .Values.env.namepu }}
+              value: {{ .Values.env.valuepu }}
+            - name: {{ .Values.env.namepw }}
+              value: {{ .Values.env.valuepw }}
 
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:

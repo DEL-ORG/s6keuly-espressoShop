@@ -81,7 +81,10 @@ env:
   valuep: http://s6keuly-espresso-shop-product:8091
   namer: ReviewsUrl
   valuer: http://s6keuly-espresso-shop-reviews:8092 
-
+  nameRH: REDIS_HOST
+  valueRH: redis-ha
+  nameRP: REDIS_PORT
+  valueRP: 6379 26379
 autoscaling:
   enabled: false
   type: Utilization

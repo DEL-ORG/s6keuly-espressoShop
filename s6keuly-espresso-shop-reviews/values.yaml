@@ -81,7 +81,12 @@ env:
   name: SERVICE_VERSION
   value: "v1"
   value2: "v2"
-
+  namepd: POSTGRES_DB
+  valuepd: espresso
+  namepu: POSTGRES_USER
+  valuepu: s6project
+  namepw: POSTGRES_PASSWORD
+  valuepw: czZwcm9qZWN0
 
 
 autoscaling:
